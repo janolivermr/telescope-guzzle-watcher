@@ -1,0 +1,29 @@
+{
+    "name": "janolivermr/telescope-guzzle-watcher",
+    "description": "Laravel Telescope Guzzle Request Watcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Stolle",
+            "email": "janstolle@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Janomr\\Telescope\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Janomr\\Telescope\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/telescope": "^3.2",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^5.0"
+    }
+}
